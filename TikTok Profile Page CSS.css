@@ -1,0 +1,173 @@
+.profilePicture{
+    height: 100px;
+    width: 100px;
+    background-color: #6f6f6f;
+    border-radius: 50%;
+    display: inline-block;
+    position: static;
+    margin-top:2%;
+    margin-left: 47%;
+    justify-content: center;
+    
+
+}
+
+.username {
+    margin-top: 15px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.NameDisplay {
+    text-align: center;
+    line-height: 50px; /* Adjust this value as needed */
+    height: 50px; /* Adjust this value as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+.Following {
+    position: relative;
+    margin-left: 500px;
+}
+
+.followers {
+    position: relative;
+}
+
+.likes {
+    position: relative;
+}
+
+.tiktok-count{
+
+}
+
+.EditProfileButton{
+    justify-content: center;
+    box-sizing: border-box;
+    top:50%;
+    background-color:#dbdbe2;
+    border:none;
+    border-radius:5px;
+    min-height:20px; 
+    min-width: 120px;
+    padding:15px;
+    position: relative;
+    top: 60px;
+    left: 590px;
+
+}
+
+.EditProfileButton:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.AddFriendsProfileButton{
+    justify-content: center;
+    box-sizing: border-box;
+    top:50%;
+    background-color:#dbdbe2;
+    border:none;
+    border-radius:5px;
+    min-height:20px; 
+    min-width: 120px;
+    padding:15px;
+    position: relative;
+    top: 60px;
+    left: 590px;
+
+}
+
+.AddFriendsProfileButton:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+    
+.SocialsProfileButton{
+    justify-content: center;
+    box-sizing: border-box;
+    top:50%;
+    background-color:#dbdbe2;
+    border:none;
+    border-radius:5px;
+    min-height:20px; 
+    min-width: 10px;
+    padding:15px;
+    position: relative;
+    top: 60px;
+    left: 590px;
+}
+
+.SocialsProfileButton:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.hr-line1 {
+    border: none;
+    border-top: 1px solid black;
+    z-index: 10;
+    margin-top: 10px;
+    position: relative;
+}
+
+.hr-line2 {
+    border: none;
+    border-top: 1px solid black;
+    z-index: 10;
+    margin-top: 0px;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.button-wrapper {
+    padding: 0px;
+}
+
+.Upload, .PrivateUpload, .SavedVideos, .LikedVideos {
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Upload{
+    margin-right:200px;
+    width: 4px;
+    height: 4px;
+
+}
+.PrivateUpload{
+    width: 4px; 
+    height: 4px;
+}
+.SavedVideos{
+    width: 4px; 
+    height: 4px;
+
+}
+.LikedVideos{
+    width: 4px; 
+    height: 4px;
+}
+
+.UploadDescription {
+    line-height:50px;
+}
