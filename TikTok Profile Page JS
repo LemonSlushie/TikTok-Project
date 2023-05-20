@@ -1,0 +1,9 @@
+$(document).ready(function() {
+  $('.tiktok-count').each(function() {
+    var $this = $(this);
+    var countTo = $this.attr('data-count');
+    $({ countNum: $this.text() }).animate(
+      { countNum: countTo },
+      {
+        duration: 2000,
+        easing: 'linear',
